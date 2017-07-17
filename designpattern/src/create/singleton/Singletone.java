@@ -7,6 +7,8 @@
  */
 package create.singleton;
 
+import java.io.Serializable;
+
 /**
  * TODO
  * 
@@ -15,7 +17,12 @@ package create.singleton;
  * @version: V1.0
  * @review: zhangjin[zhang_jin@suixingpay.com]/2017年7月10日 下午2:46:48
  */
-public class Singletone {
+public class Singletone implements Serializable{
+    /**   
+     * @Fields serialVersionUID: TODO
+     */ 
+    private static final long serialVersionUID = 1L;
+
     // 1.私有化构造器
     private Singletone() {
     }

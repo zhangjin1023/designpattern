@@ -23,6 +23,10 @@ import java.io.Serializable;
  * @review: zhangjin[zhang_jin@suixingpay.com]/2017年7月10日 下午3:34:29
  */
 public class Prototype implements Cloneable, Serializable {
+    /**   
+     * @Fields serialVersionUID: TODO
+     */ 
+    private static final long serialVersionUID = 1L;
     private int base;
     private Integer obj;
 
