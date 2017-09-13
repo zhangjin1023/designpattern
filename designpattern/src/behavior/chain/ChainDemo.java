@@ -8,7 +8,7 @@
 package behavior.chain;
 
 /**
- * TODO
+ * 职责链模式
  * 
  * @author: zhangjin[zhang_jin@suixingpay.com]
  * @date: 2017年7月17日 下午2:29:09
