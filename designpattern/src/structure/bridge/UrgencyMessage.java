@@ -8,7 +8,7 @@
 package structure.bridge;
 
 /**
- * TODO
+ * 加急消息
  * 
  * @author: zhangjin[zhang_jin@suixingpay.com]
  * @date: 2017年7月11日 下午6:30:24

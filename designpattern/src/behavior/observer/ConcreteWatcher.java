@@ -5,7 +5,7 @@
  * @Copyright ©2017 Suixingpay. All rights reserved. 
  * 注意：本内容仅限于随行付支付有限公司内部传阅，禁止外泄以及用于其他的商业用途。
  */
-package behavior.obserer;
+package behavior.observer;
 
 /**
  * 具体的观察者角色
@@ -21,7 +21,7 @@ public class ConcreteWatcher implements Watcher {
      * TODO
      * 
      * @param str
-     * @see behavior.obserer.Watcher#update(java.lang.String)
+     * @see behavior.observer.Watcher#update(java.lang.String)
      */
     @Override
     public void update(String str) {

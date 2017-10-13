@@ -5,7 +5,7 @@
  * @Copyright ©2017 Suixingpay. All rights reserved. 
  * 注意：本内容仅限于随行付支付有限公司内部传阅，禁止外泄以及用于其他的商业用途。
  */
-package behavior.obserer;
+package behavior.observer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,7 @@ public class ConcreteWatched implements Watched {
      * TODO
      * 
      * @param watcher
-     * @see behavior.obserer.Watched#addWatcher(behavior.obserer.Watcher)
+     * @see behavior.observer.Watched#addWatcher(behavior.observer.Watcher)
      */
     @Override
     public void addWatcher(Watcher watcher) {
@@ -38,7 +38,7 @@ public class ConcreteWatched implements Watched {
      * TODO
      * 
      * @param watcher
-     * @see behavior.obserer.Watched#removeWatcher(behavior.obserer.Watcher)
+     * @see behavior.observer.Watched#removeWatcher(behavior.observer.Watcher)
      */
     @Override
     public void removeWatcher(Watcher watcher) {
@@ -49,7 +49,7 @@ public class ConcreteWatched implements Watched {
      * TODO
      * 
      * @param str
-     * @see behavior.obserer.Watched#notifyWatchers(java.lang.String)
+     * @see behavior.observer.Watched#notifyWatchers(java.lang.String)
      */
     @Override
     public void notifyWatchers(String str) {
