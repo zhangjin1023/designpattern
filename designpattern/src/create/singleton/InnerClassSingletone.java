@@ -10,7 +10,7 @@ public class InnerClassSingletone {
 		return HelperHodler.INSTANCE;
 	}
 
-	public static class HelperHodler {
+	private static class HelperHodler {
 		private static final InnerClassSingletone INSTANCE = new InnerClassSingletone();
 	}
 
