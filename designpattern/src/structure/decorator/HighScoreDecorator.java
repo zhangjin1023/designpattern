@@ -1,7 +1,7 @@
 package structure.decorator;
 /**
  * 最高分修饰
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin
  *
  */
 public class HighScoreDecorator extends Decorator {

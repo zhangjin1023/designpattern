@@ -1,7 +1,7 @@
 package structure.decorator;
 /**
  * 排名修饰
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin
  *
  */
 public class SortDecorator extends Decorator {

@@ -1,7 +1,7 @@
 package create.singleton;
 /**
- * 双重校验锁,jdk1.5及以上版本有效。
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * 双重校验锁,jdk1.6及以上版本有效。
+ * @author zhang_jin
  *
  */
 public class DoubleCheckSingletone {

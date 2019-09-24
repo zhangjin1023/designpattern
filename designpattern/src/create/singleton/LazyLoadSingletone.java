@@ -1,7 +1,7 @@
 package create.singleton;
 /**
  * 线程安全的懒加载方式的单例
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin
  *
  */
 public class LazyLoadSingletone {

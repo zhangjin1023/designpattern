@@ -3,7 +3,7 @@ package structure.decorator;
 /**
  * 抽象成绩单
  * 
- * @author zhang_jin[zhang_jin@suixingpay.com]
+ * @author zhang_jin
  *
  */
 public abstract class SchoolReport {
